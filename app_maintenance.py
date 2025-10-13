@@ -462,7 +462,7 @@ st.markdown("<p style='text-align: center;'>Deriva's AI Chatbot for Charging Gui
 
 
 st.markdown(
-    "<h3 style='text-align: center; color: red;'>⚙️ The chatbot is currently under maintenance and not available.</h3>",
+    "<h3 style='text-align: center; color: red;'>⚙️ The chatbot is currently under maintenance.</h3>",
     unsafe_allow_html=True
 )
 
@@ -472,7 +472,7 @@ if user_input:
         st.markdown(user_input)
 
     with st.chat_message("assistant"):
-        st.markdown("⚙️ The chatbot is currently under maintenance and not available. Please check back later.")
+        st.markdown("The chatbot is currently under maintenance and not available. Please check back later.")
 
 # --- Footer ---
 st.divider()
