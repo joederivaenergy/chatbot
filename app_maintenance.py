@@ -462,7 +462,7 @@ st.markdown("<p style='text-align: center;'>Deriva's AI Chatbot for Charging Gui
 
 
 st.markdown(
-    "<h3 style='text-align: center; color: red;'>⚙️ The chatbot is currently under maintenance.</h3>",
+    "<h3 style='text-align: center; color: red;'>The chatbot is currently under maintenance.</h3>",
     unsafe_allow_html=True
 )
 
