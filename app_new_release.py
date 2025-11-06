@@ -722,7 +722,7 @@ def process_charging_question(user_input: str) -> str:
     
     # Step 1: Need team (ALWAYS ask for new charging questions)
     if not team:
-        return "Which team are you with? (IT, Finance, HR, Legal, Corporate, Land Services, Commerical, Development, Tech Services, or Operations)"
+        return "Which team are you with? (IT, Finance, HR, Legal, Corporate, Land Services, Commercial, Development or Tech Services)"
     
     # Check if team is Operations - redirect to guidelines
     if team and team.lower() == "operations":
