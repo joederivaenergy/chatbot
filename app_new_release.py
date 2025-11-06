@@ -258,7 +258,7 @@ with st.sidebar.expander("ℹ️ Charging Guidelines", expanded=False):
     - Project
     - Department    
     ---
-    Note: the project ID is for Concur and Timesheets.
+    **Note**: the project ID is for Concur and Timesheets.
     For additional info, please refer to [O&M Charging Guidelines](https://derivaenergy.sharepoint.com/:x:/r/sites/DerivaFinance/_layouts/15/Doc.aspx?sourcedoc=%7B3CD9F65D-C693-4CE8-904C-91074451F098%7D&file=Deriva%20OM%20Charging%20Guidelines.xlsx&action=default&mobileredirect=true).
     """)
 
